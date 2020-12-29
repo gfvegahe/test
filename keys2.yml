@@ -1,0 +1,10 @@
+- hosts: all
+  gather_facts: true
+
+  tasks
+  - name: Copy keys to servers
+    lineinfile:
+      dest: ~/ .ssh/authorized_keys
+      backup: yes
+      insertafter: EOF
+      line: youykeyinfohere
