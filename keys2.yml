@@ -4,7 +4,7 @@
   tasks:
   - name: Copy keys to servers
     lineinfile:
-      dest: ~/ .ssh/authorized_keys
+      dest: ~/.ssh/authorized_keys
       backup: yes
       insertafter: EOF
       line: youykeyinfohere
