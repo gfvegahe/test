@@ -7,4 +7,4 @@
       dest: ~/.ssh/authorized_keys
       backup: yes
       insertafter: EOF
-      line: youykeyinfohere
+      line: youykeyinfohere2
