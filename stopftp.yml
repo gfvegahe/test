@@ -1,0 +1,4 @@
+- name: Stop FTP service
+  ansible.builtin.service:
+    name: vsftpd.service
+    state: stopped
